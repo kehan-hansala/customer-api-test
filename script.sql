@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS mern_5;
+USE mern_5;
+CREATE TABLE IF NOT EXISTS customer(
+    id INT AUTO_INCREMENT PRIMARY KEY ,
+    name VARCHAR(100),
+    address VARCHAR(200),
+    salary DECIMAL(10,2)
+);
